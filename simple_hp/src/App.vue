@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <front-page/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import FrontPage from './components/FrontPage'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Parallax,
+    FrontPage
   }
 }
 </script>
@@ -23,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
