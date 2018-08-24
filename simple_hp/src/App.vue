@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <front-page/>
+    
   </div>
 </template>
 
@@ -10,7 +11,6 @@ import FrontPage from './components/FrontPage'
 export default {
   name: 'App',
   components: {
-    Parallax,
     FrontPage
   }
 }
@@ -24,5 +24,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+.contact {
+  height: 65px
+}
+.map {
+  margin: 20px
 }
 </style>
