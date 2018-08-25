@@ -18,7 +18,7 @@
           //- v-btn(flat slot='activator' dark) Contact
           v-layout
             v-dialog(v-model='contact_dialog' persistent max-width='500px')
-              v-btn.contact(flat slot='activator' dark) お問い合わせ
+              v-btn.contact(flat slot='activator' dark style="height: 65px") お問い合わせ
                 br
                 | Contact
               v-card
@@ -260,7 +260,7 @@ export default {
     return {
       privacy_dialog: false,
       contact_dialog: false,
-      msg: 'よこそY株式会社',
+      msg: 'よこそ株式会社 Y',
       company_name: '株式会社 Y',
       slogan: '世界中に車を届ける',
       our_system: 'Our System',

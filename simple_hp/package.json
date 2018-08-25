@@ -1,5 +1,5 @@
 {
-  "name": "simple_hp",
+  "name": "y_co_ltd",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Sai Frederik <saikyawphyowai@gmail.com>",
@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build": "node build/build.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "cover": "nyc --cache npm test; nyc report --reporter=html"
   },
   "dependencies": {
     "express": "^4.16.3",
@@ -58,7 +59,7 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 6.0.0",
+    "node": "8.x.x",
     "npm": ">= 3.0.0"
   },
   "browserslist": [
